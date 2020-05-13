@@ -1,0 +1,28 @@
+.navbar {
+    background: darkgray;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.latest-articles{
+    width: 50%;
+    height: 100%;
+    background: gray;
+    border: black solid 1px;
+}
+
+.latest-articles-top{
+    display: flex;
+    width:100%;
+    height: 750px;
+}
+
+.latest-articles-bottom{
+    display: flex;
+    width:100%;
+    height: 570px;
+}
+
+
