@@ -210,7 +210,7 @@ body{
 
 .person-article{
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     justify-content: space-around;
 }
@@ -248,10 +248,34 @@ body{
 }
 
 .feature-book{
-    width: 100%;
+    width: 90%;
     height: 400px;
     background-color: rgb(50, 50, 50);
     margin-top: 200px;
+    padding:5%;
+    color: #fff;
+}
+
+.feature-book h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.feature-book h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.feature-book p{
+    width: 60%;
+    line-height: 1.3em;
+    font-size: 20px;
+    margin-top: 40px;
+
 }
 
 .guides{
