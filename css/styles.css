@@ -61,6 +61,8 @@ body{
     margin: 0 auto;
 
 }
+
+
 .additional-article{
     width: 100%;
     min-height: 600px;
@@ -83,13 +85,35 @@ body{
     font-weight: 700;
 }
 
+.additional-article p{
+   font-size: 18px;
+    margin: 24px;
+    line-height: 1.5em; 
+}
+
+
 .join-1{
     grid-column: 1/3;
     background-color: rgb(80, 80, 80);
     border: 1px gray solid;
     width: 100%;
     height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.join-1 p{
+    margin: 0 auto;
+    width: 440px;
+    padding: 10px;
+    font-size: 1.7em;
+    line-height: 1.3em;
+
+} 
+
+
 
 .join-2{
     grid-column: 1/4;
