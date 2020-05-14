@@ -102,18 +102,23 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
-.join-1 p{
+.join-text p{
     margin: 0 auto;
-    width: 440px;
+    width: 600px;
     padding: 10px;
     font-size: 1.7em;
     line-height: 1.3em;
 
 } 
 
-
+.join-text h2{
+    font-size: 38px;
+    margin: 24px;
+    text-decoration: underline;
+}
 
 .join-2{
     grid-column: 1/4;
@@ -121,13 +126,40 @@ body{
     border: 1px gray solid;
     width: 100%;
     height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .book-ad{
     width: 100%;
     height: 900px;
     background-color: rgb(50, 50, 50);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.book-ad h2 {
+    padding-top: 150px;
+    font-size: 58px;
+    font-weight: 700;
+    text-decoration: underline;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 40px;
+}
+ .book-ad p {
+     font-weight: 700;
+     font-size: 20px;
+     width: 70%;
+     margin: 0 auto;
+     color: white;
+ }
 
 .community{
     width: 100%;
@@ -141,6 +173,20 @@ body{
     height: 400px;
     margin: 0 auto;
     padding-top: 60px;
+}
+
+.person-of-the-week h3{
+    font-weight: 400;
+    font-size: 24px;
+    color: grey;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.person-of-the-week p {
+    margin: 20px;
+    line-height: 1.5em;
+    font-size: 20px;
 }
 
 .person-img{
@@ -177,6 +223,28 @@ body{
     width: 75%;
     height: 100%;
     background:rgb(220, 220, 220);;
+}
+
+.content-box h3{
+    margin: 20px;
+    font-size: 18px;
+    color: gray;
+}
+
+.content-box h2{
+    margin: 20px;
+    font-size: 24px;
+}
+
+.content-box p{
+    margin: 20px;
+    line-height: 1.5em;
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .feature-book{
