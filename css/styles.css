@@ -1,366 +1,363 @@
-body{
-    font-family: 'Baloo Paaji 2', cursive;
+body {
+  font-family: 'Baloo Paaji 2', cursive;
 }
 
 .navbar {
-    background: darkgray;
-    width: 100%;
-    height: 100px;
+  background: darkgray;
+  width: 100%;
+  height: 100px;
 }
 
-.dont-miss{
-    position: absolute;
-    left: 33%;
-    top: 22%;
-    width: 37%;
-    font-size: 40px;
-    text-align: center;
-    background-color: rgb(40, 40, 40);
-    padding: 10px;
-    color: white;
-    font-weight: 700;
-    line-height: 1.2em;
+.dont-miss {
+  position: absolute;
+  left: 33%;
+  top: 22%;
+  width: 37%;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(40, 40, 40);
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 
-.latest-articles{
-    width: 50%;
-    height: 100%;
-    background-color: rgb(80, 80, 80);
-    border: rgba(0, 0, 0, 0.13) solid .5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.latest-articles {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(80, 80, 80);
+  border: rgba(0, 0, 0, 0.13) solid 0.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.latest-articles h2{
-    width: 60%;
-    font-weight: 700;
-    background-color: rgb(50, 50, 50);
-    font-size: 40px;
-    padding: 20px;
-    color: white;
-    line-height: 1.3em;
+.latest-articles h2 {
+  width: 60%;
+  font-weight: 700;
+  background-color: rgb(50, 50, 50);
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+  line-height: 1.3em;
 }
 
-.latest-articles-top{
-    display: flex;
-    width: 100%;
-    height: 750px;
+.latest-articles-top {
+  display: flex;
+  width: 100%;
+  height: 750px;
 }
 
-.latest-articles-bottom{
-    display: flex;
-    width: 100%;
-    height: 570px;
-}
-.additional-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border: 1px gray solid;
-    width: 95%;
-    margin: 0 auto;
-
+.latest-articles-bottom {
+  display: flex;
+  width: 100%;
+  height: 570px;
 }
 
-
-.additional-article{
-    width: 100%;
-    min-height: 600px;
-    background-color: rgb(180, 180, 180);
-    border: 1px solid gray;
+.additional-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px gray solid;
+  width: 95%;
+  margin: 0 auto;
 }
 
-.additional-article h3{
-    font-size: 28px;
-    margin: 24px;
-    text-decoration: underline;
+.additional-article {
+  width: 100%;
+  min-height: 600px;
+  background-color: rgb(180, 180, 180);
+  border: 1px solid gray;
 }
 
-.additional-article h4{
-    font-size: 18px;
-    margin: 24px;
-    padding-top: 20px;
-    text-decoration: underline;
-    color: rgb(120, 120, 120);
-    font-weight: 700;
+.additional-article h3 {
+  font-size: 28px;
+  margin: 24px;
+  text-decoration: underline;
 }
 
-.additional-article p{
-   font-size: 18px;
-    margin: 24px;
-    line-height: 1.5em; 
+.additional-article h4 {
+  font-size: 18px;
+  margin: 24px;
+  padding-top: 20px;
+  text-decoration: underline;
+  color: rgb(120, 120, 120);
+  font-weight: 700;
 }
 
-
-.join-1{
-    grid-column: 1/3;
-    background-color: rgb(80, 80, 80);
-    border: 1px gray solid;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.additional-article p {
+  font-size: 18px;
+  margin: 24px;
+  line-height: 1.5em;
 }
 
-.join-text p{
-    margin: 0 auto;
-    width: 600px;
-    padding: 10px;
-    font-size: 1.7em;
-    line-height: 1.3em;
-
-} 
-
-.join-text h2{
-    font-size: 38px;
-    margin: 24px;
-    text-decoration: underline;
+.join-1 {
+  grid-column: 1/3;
+  background-color: rgb(80, 80, 80);
+  border: 1px gray solid;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.join-2{
-    grid-column: 1/4;
-    background-color: rgb(80, 80, 80);
-    border: 1px gray solid;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.join-text p {
+  margin: 0 auto;
+  width: 600px;
+  padding: 10px;
+  font-size: 1.7em;
+  line-height: 1.3em;
 }
 
-.book-ad{
-    width: 100%;
-    height: 900px;
-    background-color: rgb(50, 50, 50);
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.join-text h2 {
+  font-size: 38px;
+  margin: 24px;
+  text-decoration: underline;
+}
+
+.join-2 {
+  grid-column: 1/4;
+  background-color: rgb(80, 80, 80);
+  border: 1px gray solid;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.book-ad {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(50, 50, 50);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .book-ad h2 {
-    padding-top: 150px;
-    font-size: 58px;
-    font-weight: 700;
-    text-decoration: underline;
-    width: 70%;
-    margin: 0 auto;
-    color: white;
-    margin-bottom: 40px;
-}
- .book-ad p {
-     font-weight: 700;
-     font-size: 20px;
-     width: 70%;
-     margin: 0 auto;
-     color: white;
- }
-
-.community{
-    width: 100%;
-    height: 100%;
+  padding-top: 150px;
+  font-size: 58px;
+  font-weight: 700;
+  text-decoration: underline;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
 }
 
-.person-of-the-week{
-    display: flex;
-    justify-content: space-around;
-    width: 95%;
-    height: 400px;
-    margin: 0 auto;
-    padding-top: 60px;
+.book-ad p {
+  font-weight: 700;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
 }
 
-.person-of-the-week h3{
-    font-weight: 400;
-    font-size: 24px;
-    color: grey;
-    text-transform: uppercase;
-    margin: 20px;
+.community {
+  width: 100%;
+  height: 100%;
+}
+
+.person-of-the-week {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.person-of-the-week h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: grey;
+  text-transform: uppercase;
+  margin: 20px;
 }
 
 .person-of-the-week p {
-    margin: 20px;
-    line-height: 1.5em;
-    font-size: 20px;
+  margin: 20px;
+  line-height: 1.5em;
+  font-size: 20px;
 }
 
-.person-img{
-    align-self: center;
-    width: 280px;
-    height: 280px;
-    background:rgb(180, 180, 180);
+.person-img {
+  align-self: center;
+  width: 280px;
+  height: 280px;
+  background: rgb(180, 180, 180);
 }
 
-.person-of-the-week-text{
-    width: 70%;
-    height: 300px;
-    background:rgb(220, 220, 220);
-}
-.persons-article{
-    display: grid;
-    grid-gap: 1.3em;
-    width: 95%;
-    grid-template-columns: repeat(2,1fr);
+.person-of-the-week-text {
+  width: 70%;
+  height: 300px;
+  background: rgb(220, 220, 220);
 }
 
-.person-article{
-    width: 100%;
-    height: 35vh;
-    display: flex;
-    justify-content: space-around;
-}
-.sm-img{
-    height: 70px;
-    width: 70px;
-    background:darkgray;
-}
-.content-box{
-    width: 75%;
-    height: 100%;
-    background:rgb(220, 220, 220);;
+.persons-article {
+  display: grid;
+  grid-gap: 1.3em;
+  width: 95%;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.content-box h3{
-    margin: 20px;
-    font-size: 18px;
-    color: gray;
+.person-article {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-.content-box h2{
-    margin: 20px;
-    font-size: 24px;
+.sm-img {
+  height: 70px;
+  width: 70px;
+  background: darkgray;
 }
 
-.content-box p{
-    margin: 20px;
-    line-height: 1.5em;
-    font-size: 18px;
-    color: rgb(40, 40, 40);
+.content-box {
+  width: 75%;
+  height: 100%;
+  background: rgb(220, 220, 220);
 }
 
-.underline{
-    text-decoration: underline;
+.content-box h3 {
+  margin: 20px;
+  font-size: 18px;
+  color: gray;
 }
 
-.feature-book{
-    width: 90%;
-    height: 300px;
-    background-color: rgb(50, 50, 50);
-    margin-top: 200px;
-    padding:5%;
-    color: #fff;
+.content-box h2 {
+  margin: 20px;
+  font-size: 24px;
 }
 
-.feature-book h3{
-    font-size: 18px;
-    text-transform: uppercase;
-    
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-.feature-book h2{
-    font-size: 45px;
-    text-transform: capitalize;
-    margin-bottom: 12px;
-    text-decoration: underline;
+.content-box p {
+  margin: 20px;
+  line-height: 1.5em;
+  font-size: 18px;
+  color: rgb(40, 40, 40);
 }
 
-.feature-book p{
-    width: 60%;
-    line-height: 1.3em;
-    font-size: 20px;
-    margin-top: 40px;
-
+.underline {
+  text-decoration: underline;
 }
 
-.guides{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width: 95%;
-    margin: 0 auto;
+.feature-book {
+  width: 90%;
+  height: 300px;
+  background-color: rgb(50, 50, 50);
+  margin-top: 200px;
+  padding: 5%;
+  color: #fff;
 }
 
-.guide{
-    min-height: 600px;
-    background-color: rgb(220, 220, 220);
-    border: 1px solid gray;
+.feature-book h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-book h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+
+.feature-book p {
+  width: 60%;
+  line-height: 1.3em;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.guide {
+  min-height: 600px;
+  background-color: rgb(220, 220, 220);
+  border: 1px solid gray;
 }
 
 .guide h2 {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-    color: rgb(50, 50, 50);
-    margin: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(50, 50, 50);
+  margin: 20px;
 }
 
-.guide h3{
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 34px;
-    margin: 20px;
-    color: rgb(50, 50, 50);
+.guide h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 34px;
+  margin: 20px;
+  color: rgb(50, 50, 50);
 }
 
-.guide div{
-    margin: 10px 0 10px 100px;
+.guide div {
+  margin: 10px 0 10px 100px;
 }
 
 .guide div a {
-    font-size: 28px;
-    text-transform: capitalize;
-    font-family: 'Baloo Paaji 2', cursive;
-    color: rgb(0, 119, 255);
-    display: list-item;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-family: 'Baloo Paaji 2', cursive;
+  color: rgb(0, 119, 255);
+  display: list-item;
 }
 
-.newsletter{
-    grid-column: 2/4;
-    background-color: rgb(80, 80, 80);
-    height: 750px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.newsletter {
+  grid-column: 2/4;
+  background-color: rgb(80, 80, 80);
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.footer{
-    width: 100%;
-    height: 700px;
-    background-color: rgb(80, 80, 80);
-    border-top: 1px solid darkgray;
+.footer {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(80, 80, 80);
+  border-top: 1px solid darkgray;
 }
 
-.footer h2{
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-
-    margin: 100px;
+.footer h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 100px;
 }
 
-.footer-links{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 80%;
-    margin: 0 auto;
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer-links div {
-    margin: 10px 10px 30px 10px;
+  margin: 10px 10px 30px 10px;
 }
 
-.footer-links div a{
-    color: white;
-    font-size: 38px;
-
-   
+.footer-links div a {
+  color: white;
+  font-size: 38px;
 }
