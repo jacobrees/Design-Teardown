@@ -1,16 +1,45 @@
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
 .navbar {
     background: darkgray;
     width: 100%;
     height: 100px;
 }
 
-
+.dont-miss{
+    position: absolute;
+    left: 33%;
+    top: 22%;
+    width: 37%;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2em;
+}
 
 .latest-articles{
     width: 50%;
     height: 100%;
     background-color: rgb(80, 80, 80);
     border: darkgray solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-articles h2{
+    width: 60%;
+    font-weight: 700;
+    background-color: rgb(50, 50, 50);
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    line-height: 1.3em;
 }
 
 .latest-articles-top{
@@ -37,6 +66,21 @@
     min-height: 600px;
     background-color: rgb(180, 180, 180);
     border: 1px solid gray;
+}
+
+.additional-article h3{
+    font-size: 28px;
+    margin: 24px;
+    text-decoration: underline;
+}
+
+.additional-article h4{
+    font-size: 18px;
+    margin: 24px;
+    padding-top: 20px;
+    text-decoration: underline;
+    color: rgb(120, 120, 120);
+    font-weight: 700;
 }
 
 .join-1{
