@@ -14,7 +14,7 @@ Page is a basic greyscale teardown of the smashing magazine homepage, the darker
 
 ## Live Demo
 
-Live link here: https://rawcdn.githack.com/jacobrees/Design-Teardown/b4288a60ea865929d51ac3155792daef508dab52/index.html
+Live link here: https://rawcdn.githack.com/jacobrees/Design-Teardown/73ebe19e50539982445e6bb329847f31e874ef44/index.html
 
 
 
