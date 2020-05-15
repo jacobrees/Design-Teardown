@@ -2,7 +2,7 @@
 
 > A Design Teardown of the Smashing Magazines homepage.
 
-![](images/screenshot.png)
+![](images/Screenshot.png)
 
 Page is a basic greyscale teardown of the smashing magazine homepage, the darker the shade of grey represents the more focus is on that element of the page. 
 
